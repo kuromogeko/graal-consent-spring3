@@ -39,7 +39,8 @@
 				<artifactId>native-maven-plugin</artifactId>
 				<configuration>
 					<buildArgs>
-						<buildArg>--language:js --no-fallback -J-Xmx10g -H:ResourceConfigurationFiles=./resource-config.json</buildArg>
+<!--						<buildArg>&#45;&#45;language:js &#45;&#45;no-fallback -J-Xmx10g -H:ResourceConfigurationFiles=./resource-config.json</buildArg>-->
+						<buildArg> --no-fallback -J-Xmx10g</buildArg>
 					</buildArgs>
 				</configuration>
 			</plugin>
