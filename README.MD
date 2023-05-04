@@ -13,7 +13,7 @@ Is now achieved by running
 mvn -Pnative native:compile
 ```
 
-A Docker build could using Paketobuilder be run but is untested. 
+A Docker build could be run using Paketobuilder but is untested. 
 ```
 mvn -Pnative spring-boot:build-image
 ```
